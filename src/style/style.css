@@ -1,0 +1,92 @@
+/* general styling */
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.f1{
+    position: relative;
+    margin-top: 300px;
+}
+
+.f1__form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+form {
+    max-width: 300px;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #ccc;
+    border-radius: .1875rem;
+    box-sizing: border-box;
+    display: block;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+    padding: .275rem;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+    display: inline-block;
+    width: auto;
+}
+
+input[type="password"] {
+    margin-bottom: .5rem;
+}
+
+input[type="submit"] {
+    background-color: #015294;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+}
+
+label {
+    color: #666;
+    font-size: .875rem;
+}
+
+.data{
+    text-align: center;
+    position: relative;
+}
+
+table{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.active_item{
+    color: #73cb66;
+    border-bottom: .5rem solid #73cb66;
+}
+
+  .header {
+    overflow: hidden;
+    border-bottom: 1px solid black;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1.2rem;
+    text-decoration: none;
+    font-size: 1.8rem; 
+    line-height: 2.5rem;
+  }
