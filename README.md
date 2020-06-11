@@ -1,6 +1,6 @@
 ### `npm start`
 
-git clone git@github.com:LalitTyagi/Sigmoid.git
+git clone git@github.com:LalitTyagi/Sigmoid.git  
 cd Sigmoid  
 npm i  
 npm run start  
